@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436281469122",
+    "project_id": "swift-shop-c7608",
+    "storage_bucket": "swift-shop-c7608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436281469122:android:362313726c22ff9b0c735b",
+        "android_client_info": {
+          "package_name": "com.loja.swiftshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436281469122-l7lu4qvj0ueptu70r0b4ia4ej7qhq12a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkTlA-KEPRsXyxYO5W1HpfB3RRG7mnYRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436281469122-l7lu4qvj0ueptu70r0b4ia4ej7qhq12a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

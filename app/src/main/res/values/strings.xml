@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Swift Shop</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro"><u>Não tem uma conta? Cadastre-se agora</u></string>
+    <string name="text_faca_cadastro">Faça seu cadastro</string>
+    <string name="text_dialog_carregando">Carregando...</string>
+    <string name="menu_item_perfil">Perfil</string>
+    <string name="menu_item_pedidos">Pedidos</string>
+    <string name="menu_item_deslogar">Sair da Sessão</string>
+    <string name="texto_botao_deslogar">Sair</string>
+    <string name="titulo_tamanho_detalhes">Escolha seu tamanho</string>
+    <string name="titulo_preco">Preço</string>
+    <string name="text_botao_finalizar_pedido">Finalizar Pedido</string>
+    <string name="text_tamanho_38">38</string>
+    <string name="text_tamanho_39">39</string>
+    <string name="text_tamanho_40">40</string>
+    <string name="text_tamanho_41">41</string>
+    <string name="text_tamanho_42">42</string>
+    <string name="titulo_tela_pagamento">Preencha todos os campos antes de fazer o pagamento</string>
+    <string name="hint_bairro">Bairro</string>
+    <string name="hint_rua_e_numero">Rua e Número</string>
+    <string name="hint_cidade_e_estado">Cidade e Estado</string>
+    <string name="hint_Celular">Celular</string>
+    <string name="texto_botao_fazer_pagamento">Fazer Pagamento</string>
+</resources>

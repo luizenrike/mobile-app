@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dark_gray"
+    tools:context=".activities.TelaPrincipal.TelaPrincipal">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search"
+        android:background="@color/white"
+        android:layout_margin="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttom_todos"
+                    android:text="Todos"
+                    style="@style/button_menu"
+                    android:layout_marginHorizontal="10dp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttom_camisas"
+                    android:text="Camisas"
+                    style="@style/button_menu"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttom_bermudas"
+                    android:text="Bermudas"
+                    style="@style/button_menu"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttom_calcados"
+                    style="@style/button_menu"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="calçados" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttom_acessorios"
+                    android:text="Acessorios"
+                    style="@style/button_menu"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtListTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Todos"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_produtos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
